@@ -1,0 +1,12 @@
+[package]
+name = "rsdos_graphics"
+version = "0.1.0"
+authors = ["Evan Salazar <esalazar1981@gmail.com>"]
+edition = "2024"
+
+
+[profile.release]
+opt-level = "z"
+
+[dependencies]
+#rlibc = "1.0.0"
